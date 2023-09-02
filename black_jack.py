@@ -196,7 +196,7 @@ def run():
         print(dd, end=" ")
     print("={}".format(calculate_points(host)))
     point = points_cal(player_cards, host)
-    sleep(1)
+    sleep(2)
 
     if not dragon:
         print("")
